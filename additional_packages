@@ -1,0 +1,13 @@
+networkmanager
+network-manager-applet
+bluez
+bluez-utils
+cups
+xf86-video-qxl
+xf86-video-intel
+xf86-video-nouveau
+xorg
+gdm
+gnome
+gnome-tweaks
+chromium
