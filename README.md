@@ -1,5 +1,7 @@
 # archlinux-iso
-Create a custom and updated arch iso with gnome live desktop and optional archlinux-installer script
+Create a custom and updated arch iso with gnome live desktop (and optional archlinux-installer script, [later added])
+
+This Script was tested and works for iso 2021.05.31
 
 ```bash
 # Run the Script as Root
