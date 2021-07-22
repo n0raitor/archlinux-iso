@@ -1,6 +1,6 @@
 #!/bin/bash
-pacman -R archiso  # Clean Up ArchIsoFiles for a clean build
-pacman -S archiso  # Sync Iso
+pacman -R --noconfirm archiso  # Clean Up ArchIsoFiles for a clean build
+pacman -S --noconfirm --needed archiso  # Sync Iso
 
 # Copy Current Iso Content to local folder
 mkdir archlive
