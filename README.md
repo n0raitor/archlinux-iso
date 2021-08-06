@@ -9,6 +9,8 @@ State:
 * 2021.07.22 [Not Tested]
 
 ## Build ISO
+
+CAUTION: This Script will reinstall the ArchIso Package. Make sure to backup your ArchIso Data, if you are working with them
 ```bash
 # Run the Script as Root
 sudo ./create-arch-iso.sh
