@@ -1,5 +1,5 @@
 # archlinux-iso
-Create a custom and updated arch iso with xfce live desktop (and optional archlinux-installer script, [later added])
+Create a custom and updated arch iso with GNOME live desktop (and optional archlinux-installer script, [later added])
 
 ## Prebuild ISO
 Location *Prebuild_ISO*
