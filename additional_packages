@@ -37,14 +37,14 @@ networkmanager-openvpn
 # Must haves
 ffmpegthumbnailer
 raw-thumbnailer
-xarchiver 
-file-roller 
-ark 
-xwallpaper 
-archivetools 
-archlinux-menu 
-archlinux-themes-slim 
-archlinux-xdg-menu 
+#xarchiver 
+#file-roller 
+#ark 
+#xwallpaper 
+#archivetools 
+#archlinux-menu 
+#archlinux-themes-slim 
+#archlinux-xdg-menu 
 fastjar
 
 # Image Manipulation
@@ -54,38 +54,38 @@ gimp
 celluloid
 
 # Codex
-gst-plugins-base 
-gst-plugins-good 
-gst-plugins-ugly 
+#gst-plugins-base 
+#gst-plugins-good 
+#gst-plugins-ugly 
 
 # Browser
 chromium
-firefox 
-midori 
-vivaldi 
+#firefox 
+#midori 
+#vivaldi 
 vivaldi-ffmpeg-codecs
 
 # Office
 libreoffice-still
-hunspell-en 
-hunspell-de 
-mythes-en 
-mythes-de 
-aspell-en 
-aspell-de 
-languagetool 
+#hunspell-en 
+#hunspell-de 
+#mythes-en 
+#mythes-de 
+#aspell-en 
+#aspell-de 
+#languagetool 
 enchant
-libmythes 
+#libmythes 
 
 # File System
 dosfstools
-ntfs-3g 
+#ntfs-3g 
 gvfs
 
 # Archives
-zip 
-unzip 
-unrar 
-p7zip 
+#zip 
+#unzip 
+#unrar 
+#p7zip 
 lzop
 

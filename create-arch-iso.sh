@@ -2,10 +2,20 @@
 pacman -R --noconfirm archiso  # Clean Up ArchIsoFiles for a clean build
 pacman -S --noconfirm --needed archiso  # Sync Iso
 
+# If archlive folder exists, delete this folder
+DIR="./archlive"
+if [ -d "$DIR" ]; then
+  # Take action if $DIR exists. #
+  echo "Remove archlive folder"
+  rm -rf ./archlive
+fi
+
 # Copy Current Iso Content to local folder
-mkdir archlive
+mkdir -p archlive
 cp -r /usr/share/archiso/configs/releng/* ./archlive/
 cd archlive
+
+
 
 cat ../additional_packages >> packages.x86_64  # Add Additional Packages to Iso Build
 
