@@ -1,12 +1,6 @@
 # archlinux-iso
 Create a custom and updated arch iso with GNOME live desktop (and optional archlinux-installer script, [later added])
 
-## Prebuild ISO
-Location *Prebuild_ISO*
-
-State:
-* 2021.05.31 [Tested]
-* 2021.07.22 [Not Tested]
 
 ### Packages Included
 ```bash
