@@ -104,6 +104,9 @@ lzop
 
 CAUTION: This Script will reinstall the ArchIso Package. Make sure to backup your ArchIso Data, if you are working with them
 ```bash
+# Get Execution Privileges
+chmod +x ./create-arch-iso.sh 
+
 # Run the Script as Root
 sudo ./create-arch-iso.sh
 ```
