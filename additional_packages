@@ -21,7 +21,7 @@ brasero
 handbrake
 
 # E-Mail Client
-evoluction
+evolution
 
 # Themes and Icons
 arc-gtk-theme
@@ -71,7 +71,6 @@ audacity
 
 # Browser
 chromium
-brave
 #firefox 
 #midori 
 #vivaldi 
@@ -102,7 +101,7 @@ gvfs
 #lzop
 
 # Encryption
-verycrypt
+veracrypt
 
 # E-Books
 calibre
@@ -111,8 +110,8 @@ calibre
 gfeeds
 
 # Sys
-baobab  # Memory Analyzer
-gufw    # Firewall Gui
+# baobab  # Memory Analyzer
+# gufw    # Firewall Gui
 gnome-firmware
 font-manager
 gparted
