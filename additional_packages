@@ -12,6 +12,7 @@ xorg
 gdm
 gnome
 gnome-tweaks
+gnome-extra
 
 # CD/DVD Burning Software
 brasero
@@ -20,8 +21,7 @@ brasero
 handbrake
 
 # E-Mail Client
-thunderbird
-thunderbird-i18n-de
+evoluction
 
 # Themes and Icons
 arc-gtk-theme
@@ -49,9 +49,20 @@ fastjar
 
 # Image Manipulation
 gimp
+darktable
+
+# 3D Dev
+#blender
 
 # Video Player
 celluloid
+vlc
+
+# VIdeo Editor
+kdenlive
+
+# Music Editor
+audacity
 
 # Codex
 #gst-plugins-base 
@@ -60,13 +71,14 @@ celluloid
 
 # Browser
 chromium
+brave
 #firefox 
 #midori 
 #vivaldi 
-vivaldi-ffmpeg-codecs
+#vivaldi-ffmpeg-codecs
 
 # Office
-libreoffice-still
+libreoffice-fresh
 #hunspell-en 
 #hunspell-de 
 #mythes-en 
@@ -87,5 +99,24 @@ gvfs
 #unzip 
 #unrar 
 #p7zip 
-lzop
+#lzop
+
+# Encryption
+verycrypt
+
+# E-Books
+calibre
+
+# Feed
+gfeeds
+
+# Sys
+baobab  # Memory Analyzer
+gufw    # Firewall Gui
+gnome-firmware
+font-manager
+gparted
+
+vim
+
 
