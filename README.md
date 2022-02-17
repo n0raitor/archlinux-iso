@@ -98,7 +98,24 @@ unzip
 unrar 
 p7zip 
 lzop
-``
+```
+
+### New integrated Packages:
+* gnome-extra
+* evolution (instead of Thunderbird)
+* darktable (Like Lightroom but Open Source)
+* blender
+* vlc
+* kdenlive
+* audacity
+* libreoffice-fresh (instead of libreoffice-still)
+* veracrypt - Device Decryption / Encryption Tool
+* calibre - E-Book Reader
+* gfeeds - RSS Feed Reader
+* gnome-firmware
+* font-manager
+* gparted
+* vim
 
 ## Build ISO
 
