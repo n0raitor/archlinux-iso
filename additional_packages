@@ -36,7 +36,7 @@ networkmanager-openvpn
 
 # Must haves
 ffmpegthumbnailer
-raw-thumbnailer
+#raw-thumbnailer
 #xarchiver 
 #file-roller 
 #ark 
