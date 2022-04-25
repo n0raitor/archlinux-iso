@@ -2,3 +2,5 @@ archlive
 archlive/*
 archlinux-*
 .iso
+aur_tmp_build_dir/
+local/repo
