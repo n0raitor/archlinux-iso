@@ -38,6 +38,8 @@ gnome-tour
 
 # GNOME Dropdown Terminal
 guake
+nautilus-terminal
+
 
 # GNOME misc Apps (TBA)
 
@@ -163,6 +165,7 @@ wireless_tools
 wpa_supplicant
 python-pip
 ipython
+nitroshare
 
 # Audio
 alsa-plugin
