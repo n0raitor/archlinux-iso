@@ -4,3 +4,4 @@ archlinux-*
 .iso
 aur_tmp_build_dir/
 local/repo
+archlinux-installer/

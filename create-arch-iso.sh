@@ -7,7 +7,7 @@ DIR="./archlive"
 if [ -d "$DIR" ]; then
   # Take action if $DIR exists. #
   echo "Removing archlive folder..."
-  rm -rf ./archlive
+  sudo rm -rf ./archlive
   echo "Done"
 fi
 
@@ -15,7 +15,7 @@ DIR="local/repo"
 if [ -d "$DIR" ]; then
   # Take action if $DIR exists. #
   echo "Removing archlive folder..."
-  rm -rf local/repo
+  sudo rm -rf local/repo
   echo "Done"
 fi
 
@@ -23,7 +23,7 @@ DIR="aur_tmp_build_dir"
 if [ -d "$DIR" ]; then
   # Take action if $DIR exists. #
   echo "Removing archlive folder..."
-  rm -rf aur_tmp_build_dir
+  sudo rm -rf aur_tmp_build_dir
   echo "Done"
 fi
 
@@ -76,9 +76,9 @@ cd archlive
 
 
 ### Edit Pacman.conf to add local Repository for AUR Packages
-echo "[custom]" >> pacman.conf
-echo "SigLevel = Optional TrustAll" >> pacman.conf
-echo "$localpath/local/repo" >> pacman.conf
+#echo "[custom]" >> pacman.conf
+#echo "SigLevel = Optional TrustAll" >> pacman.conf
+#echo "$localpath/local/repo" >> pacman.conf
 
 # Set Autologin enabled
 sed -i 's/--autologin/--autologin root/g' ./airootfs/etc/systemd/system/getty@tty1.service.d/autologin.conf
