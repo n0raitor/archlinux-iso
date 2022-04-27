@@ -107,7 +107,6 @@ pulseaudio-alsa
 ```
 timeshift
 balena-etcher
-1password
 ```
 ### BIG
 #### BASIC
@@ -314,34 +313,21 @@ cantarell-fonts
 ttf-hackgen
 ttf-gentium-basic
 ttf-ms-fonts
-gnome-terminal-transparency
 flat-remix
 flat-remix-gtk
 flat-remix-gnome
 sweet-cursors-theme-git
 timeshift
 brave-bin
-kali-undercover
 github-desktop-bin
 gitkraken
 zoom
-balena-etcher
-spotify
 slack-desktop
-rambox
-1password
-stacer
 handbrake
 jdownloader2
-nautilus-open-any-terminal
 guitar-pro
 ida-free
-ghidra
 kazam
-archlinux-appstream-data-pamac
-pamac-aur-git
-libpamac-aur
-
 ```
 ## Build ISO
 

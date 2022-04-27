@@ -24,8 +24,15 @@ do
     echo -n "(PKG "
     makepkg &> /dev/null
     echo -n "OK) "
-    cp $package*.zst ../../$repo_dir_name
-    cd ..
-    repo-add ../local/repo/custom.db.tar.gz ../local/repo/$package*.zst > /dev/null
-    echo "Done"
+    count=`ls -1 *zst 2>/dev/null | wc -l`
+    if [ $count != 0 ]
+    then
+        cp *.zst ../../$repo_dir_name
+        cd ..
+        repo-add ../local/repo/custom.db.tar.gz ../local/repo/$package*.zst > /dev/null
+        echo "Done"
+    else
+        cd ..
+        echo "Failed"
+    fi
 done
