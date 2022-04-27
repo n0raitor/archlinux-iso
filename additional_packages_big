@@ -9,7 +9,7 @@ xf86-video-nouveau
 xf86-video-amdgpu
 xf86-input-synaptics
 xorg
-intel-unicode
+intel-ucode
 amd-ucode
 
 # GNOME
@@ -102,6 +102,7 @@ gst-libav
 
 # Browser
 chromium
+firefox
 
 # Office
 libreoffice-still
@@ -168,7 +169,7 @@ ipython
 nitroshare
 
 # Audio
-alsa-plugin
+alsa-plugins
 alsa-utils
 pulseaudio
 pulseaudio-alsa
@@ -185,7 +186,8 @@ ttf-bitstream-vera
 ttf-dejavu
 ttf-liberation
 adobe-source-sans-pro-fonts
-ttf-anonymous-pro ttf-droid
+#ttf-anonymous-pro 
+ttf-droid
 ttf-ubuntu-font-family
 ttf-roboto
 ttf-roboto-mono
