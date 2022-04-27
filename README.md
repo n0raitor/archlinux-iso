@@ -14,7 +14,7 @@ Feel free to get Prebuild ISOs on SourceForge
 
 
 
-#Packages Included
+# Packages Included
 ## GNOME
 ### Minimal
 #### BASIC
