@@ -319,13 +319,11 @@ flat-remix-gnome
 sweet-cursors-theme-git
 timeshift
 brave-bin
-github-desktop-bin
 gitkraken
 zoom
 slack-desktop
 handbrake
 jdownloader2
-guitar-pro
 ida-free
 kazam
 ```
