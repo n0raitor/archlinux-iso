@@ -299,7 +299,7 @@ ttf-bitstream-vera
 ttf-dejavu
 ttf-liberation
 adobe-source-sans-pro-fonts
-#ttf-anonymous-pro 
+#ttf-anonymous-pro
 ttf-droid
 ttf-ubuntu-font-family
 ttf-roboto
@@ -331,23 +331,39 @@ kazam
 
 CAUTION: This Script will reinstall the ArchIso Package. Make sure to backup your ArchIso Data, if you are working with them
 
-# Edit  Variables
-## On create-arch-iso.sh / create-arch-iso-big.sh / test-packages-valid.sh
+### Edit  Variables
+#### On create-arch-iso.sh / create-arch-iso-big.sh / test-packages-valid.sh
 Edit this Variables to get the scripts work on your mashine:
 * LOCALPATH
 * LOCALUSER
 
-# Get Execution Privileges
+### Get Execution Privileges
 ```bash
-chmod +x ./create-arch-iso.sh 
+chmod +x create-arch-iso.sh
+chmod +x create-local-aur-repo.sh
+chmod +x rm_repo_of_aur.sh
 ```
-### Run the Script as Root
+
+### Create AUR Local Repository
+Make sure to create a Repo with the AUR Packages (*create-local-aur-repo.sh*) before you run the create scripts, otherwise the aur packages would not be added to the iso.
+Use the following commands to create a aur-local-repo for the *minimal* or the *big* ISO.
+
+```bash
+./create-local-aur-repo.sh --minimal
+./create-local-aur-repo.sh --big
 ```
-sudo ./create-arch-iso.sh
+Use the *--update* as a second parameter, to reset the existing repo and create all aur packages reguarding to the minimal or big edition from source.
+
+**NOTE:** I highly recommend this argument, if you want to create a minimal and a big one.
+After you created the "Big" ISO and its AUR Local Repo, use the *--minimal --update* Arguments on the Create Local Aur Repo Script to reset the repo to just use the the minimal aur packages in the minimal iso creation process. This is essential, because the script will install all package names in the repo (file *packages_in_repo*, if it exists) for the target iso. There is no *minimal* or *big* repo edition at this time. This has disc space and redundancy reasons.
+
+### Run the Creation Script as Root
+```
+sudo ./create-arch-iso.sh --minimal
 ```
 or
 ```
-sudo ./create-arch-iso-big.sh
+sudo ./create-arch-iso.sh --big
 ```
 
 ## Testing
@@ -361,4 +377,3 @@ If the Progress Lines appear, use CTRL+C to quit the Test. All Packages should b
 I will update this iso build over time to work for future isos.
 
 Feel free to add Issues, if you get errors or if you found bugs.
-
