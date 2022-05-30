@@ -23,7 +23,7 @@ gnome-break-timer
 gnome-firmware
 gnome-flashback
 gnome-icon-theme-extras
-gnome-initial-setup
+#gnome-initial-setup
 gnome-latex
 gnome-mplayer
 gnome-packagekit
@@ -186,7 +186,7 @@ ttf-bitstream-vera
 ttf-dejavu
 ttf-liberation
 adobe-source-sans-pro-fonts
-#ttf-anonymous-pro 
+#ttf-anonymous-pro
 ttf-droid
 ttf-ubuntu-font-family
 ttf-roboto
