@@ -136,7 +136,6 @@ gnome-break-timer
 gnome-firmware
 gnome-flashback
 gnome-icon-theme-extras
-gnome-initial-setup
 gnome-latex
 gnome-mplayer
 gnome-packagekit
