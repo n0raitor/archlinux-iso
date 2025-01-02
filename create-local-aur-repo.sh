@@ -73,7 +73,12 @@ do
         echo -n "OK) "
         cd $package
         echo -n "(PKG "
-        makepkg &> /dev/null
+        if [ "$3" = "--debug" ]
+        then
+            makepkg
+        else
+            makepkg &> /dev/null
+        fi
         echo -n "OK) "
         count=`ls -1 *zst 2>/dev/null | wc -l`
         if [ $count != 0 ]

@@ -353,16 +353,23 @@ Use the following commands to create a aur-local-repo for the *minimal* or the *
 ```
 Use the *--update* as a second parameter, to reset the existing repo and create all aur packages reguarding to the minimal or big edition from source.
 
+Use this for Debug Information:
+```bash
+./create-local-aur-repo.sh --minimal --update --debug
+./create-local-aur-repo.sh --big --update --debug
+```
+**TIPP: You my need to install missing dependencies using *sudo pacman -S <packagename>*.**
+
 **NOTE:** I highly recommend this argument, if you want to create a minimal and a big one.
 After you created the "Big" ISO and its AUR Local Repo, use the *--minimal --update* Arguments on the Create Local Aur Repo Script to reset the repo to just use the the minimal aur packages in the minimal iso creation process. This is essential, because the script will install all package names in the repo (file *packages_in_repo*, if it exists) for the target iso. There is no *minimal* or *big* repo edition at this time. This has disc space and redundancy reasons.
 
 ### Run the Creation Script as Root
 ```
-sudo ./create-arch-iso.sh --minimal
+./create-arch-iso.sh --minimal
 ```
 or
 ```
-sudo ./create-arch-iso.sh --big
+./create-arch-iso.sh --big
 ```
 
 ## Testing

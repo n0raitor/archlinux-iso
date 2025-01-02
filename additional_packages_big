@@ -22,7 +22,7 @@ gnome-applets
 gnome-break-timer
 gnome-firmware
 gnome-flashback
-gnome-icon-theme-extras
+#gnome-icon-theme-symbolic
 #gnome-initial-setup
 gnome-latex
 gnome-mplayer
@@ -32,14 +32,14 @@ gnome-passwordsafe
 gnome-pie
 gnome-podcasts
 gnome-shell-extension-appindicator
-gnome-shell-extension-gtile
+#gnome-shell-extension-gtile
 gnome-subtitles
 gnome-tour
 
 # GNOME Dropdown Terminal
 guake
-nautilus-terminal
-
+#nautilus-terminal
+nautilus
 
 # GNOME misc Apps (TBA)
 

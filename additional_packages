@@ -16,7 +16,7 @@ gnome-tweaks
 
 # GNOME Dropdown Terminal
 guake
-nautilus-terminal
+#nautilus-terminal
 
 # Must haves
 ffmpegthumbnailer
