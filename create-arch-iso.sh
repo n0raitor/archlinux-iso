@@ -1,7 +1,7 @@
 #!/bin/bash
 LOCALUSER=norman
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-LOCALPATH=/home/norman/Dokumente/GitHub/archlinux-iso/
+LOCALPATH=/home/norman/archlinux-iso/
 done_aur_repo_name="packages_in_repo"
 done_aur_repo_file_exists=0
 create_minimal=0
