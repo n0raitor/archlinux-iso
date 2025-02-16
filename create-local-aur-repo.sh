@@ -77,7 +77,12 @@ do
         then
             makepkg
         else
-            makepkg > /dev/null 2>&1
+            if [ "$2" = "--debug" ]
+            then
+                makepkg
+            else
+                makepkg > /dev/null 2>&1
+            fi
         fi
         echo -n "OK) "
         count=`ls -1 *zst 2>/dev/null | wc -l`
