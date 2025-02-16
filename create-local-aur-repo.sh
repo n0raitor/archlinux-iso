@@ -27,8 +27,10 @@ else
     then
         echo "Updating AUR Packages"
         sudo ./rm_repo_of_aur.sh
+    elif  [ $2 = "--debug" ]
+        echo "Updating AUR Packages"
+        sudo ./rm_repo_of_aur.sh
     elif [ $2 != "" ]
-    then
         echo "Invalid Arguments, exiting ..."
         exit 0
     fi
