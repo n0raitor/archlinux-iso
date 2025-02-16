@@ -27,7 +27,7 @@ else
     then
         echo "Updating AUR Packages"
         sudo ./rm_repo_of_aur.sh
-    elif  [ $2 = "--debug" ]
+    elif [ $2 = "--debug" ]
         echo "Updating AUR Packages"
         sudo ./rm_repo_of_aur.sh
     elif [ $2 != "" ]
